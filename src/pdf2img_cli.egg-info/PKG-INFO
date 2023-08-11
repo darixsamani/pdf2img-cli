@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pdf2img-cli
+Version: 0.0.12
+Summary: simple cli for paragraphe recognition
+Home-page: https://github.com/darixsamani/pdf2img_cli
+Author: Darix SAMANI
+Author-email: samandarix@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simpar-cli
+this is cli for tranform pdf to images
+
+
+
+## How to Install
+
+```
+pip install pdf2img-cli
+
+```
+
+## How to use
+
+
+```
+python3 -m pdf2img_cli --pdf ./example/examp.pdf --ouput ./img/
+
+```
+
+```
+pdf2img_cli --pdf ./example/examp.pdf --ouput ./img/
+```
+ 

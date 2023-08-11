@@ -1,0 +1,2 @@
+[console_scripts]
+pdf2img_cli = pdf2img_cli:main

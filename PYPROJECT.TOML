@@ -1,0 +1,29 @@
+[build-system]
+requires = [
+“setuptools>=42”,
+“wheel”
+]
+build-backend = “setuptools.build_meta”
+
+
+[project.scripts]
+simpar_cli = "pdf2img_cli:main"
+
+[project]
+name = "pdf2img_cli"
+version = "0.0.12"
+authors = [
+  { name="Darix SAMANI", email="samanidarix@gmail.com" },
+]
+description = "tranform pdf to images"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/darixsamani/pdf2img_cli/"
+"Bug Tracker" = "https://github.com/darixsamani/pdf2img_cli/issues"

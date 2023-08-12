@@ -11,7 +11,7 @@ simpar_cli = "pdf2img_cli:main"
 
 [project]
 name = "pdf2img_cli"
-version = "0.0.12"
+version = "0.0.2"
 authors = [
   { name="Darix SAMANI", email="samanidarix@gmail.com" },
 ]

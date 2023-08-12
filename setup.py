@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='pdf2img_cli',
-    version='0.0.12',
+    version='0.0.2',
     packages=['pdf2img_cli'],
     license='MIT license',
     description="simple cli for paragraphe recognition",

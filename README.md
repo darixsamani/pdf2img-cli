@@ -1,4 +1,4 @@
-# simpar-cli
+# pdf2img-cli
 this is cli for tranform pdf to images
 
 

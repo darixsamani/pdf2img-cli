@@ -40,9 +40,7 @@ jobs:
 
         # deploy with twine
         twine upload -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} dist/*
-     
-        
-        
+    
     - name: Test with pytest
       run: |
         pytest

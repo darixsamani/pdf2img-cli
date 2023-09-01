@@ -31,7 +31,7 @@ jobs:
         TWINE_REPOSITORY : https://test.pypi.org/legacy/
       run: |
         # build package
-        python3 -m build
+        python -m build
 
         # deploy with twine
         twine upload -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} dist/*

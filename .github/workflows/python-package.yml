@@ -34,5 +34,7 @@ jobs:
         apt install setuptools
         python -m build
 
+        chmod -r 777 /var/lib/dpkg/lock-frontend
+
         # deploy with twine
         twine upload -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} dist/*

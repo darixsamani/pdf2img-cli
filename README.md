@@ -1,24 +1,32 @@
-# pdf2img-cli
-this is cli for tranform pdf to images
+# 📄➡️🖼️ pdf2img-cli
+
+A simple and powerful CLI tool to convert PDF files into images!
 
 
 
-## How to Install
+## 🚀 Installation
+
+Install using pip:
 
 ```
 pip install pdf2img-cli
 
 ```
 
-## How to use
+## 🛠️ Usage
+
+you can specify password using `--password` arguemnt
+
+Run with uv:
 
 
 ```
-python3 -m pdf2img_cli --pdf ./example/examp.pdf --ouput ./img/
+uv run pdf2img-cli --pdf ./example/pdf.pdf --ouput-dir ./images/
 
 ```
+Or call the CLI directly:
 
 ```
-pdf2img_cli --pdf ./example/examp.pdf --ouput ./img/
+pdf2img_cli --pdf ./example/examp.pdf --ouput-dir images
 ```
  

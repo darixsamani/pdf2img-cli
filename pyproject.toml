@@ -1,0 +1,18 @@
+[project]
+name = "pdf2img-cli"
+version = "0.1.0"
+description = "command-line interface (CLI) to tranform pdf to images"
+readme = "README.md"
+authors = [
+    { name = "Darix Samani Siewe", email = "darix@example.com" },
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pdf2image>=1.17.0",
+]
+
+[project.scripts]
+pdf2img-cli = "pdf2img_cli.__main__:cli"
+
+[tool.uv]
+package = true

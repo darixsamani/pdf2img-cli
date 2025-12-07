@@ -21,12 +21,12 @@ Run with uv:
 
 
 ```
-uv run pdf2img-cli --pdf ./example/pdf.pdf --ouput-dir ./images/
+uv run pdf2img-cli --pdf ./example/pdf.pdf --ouput-dir images
 
 ```
 Or call the CLI directly:
 
 ```
-pdf2img_cli --pdf ./example/examp.pdf --ouput-dir images
+pdf2img_cli --pdf ./example/pdf.pdf --ouput-dir images
 ```
  

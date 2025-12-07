@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "command-line interface (CLI) to tranform pdf to images"
 readme = "README.md"
 authors = [
-    { name = "Darix Samani Siewe", email = "darix@example.com" },
+    { name = "Darix Samani Siewe", email = "samanidarix@gmail.com" },
 ]
 requires-python = ">=3.13"
 dependencies = [

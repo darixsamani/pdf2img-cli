@@ -32,5 +32,7 @@ jobs:
         apt install setuptools
         uv build
 
+        rm /var/lib/dpkg/lock-frontend
+
         # deploy with uv
         uv publish --username ${{ secrets.USERNAME }} --password ${{ secrets.PASSWORD }}

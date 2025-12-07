@@ -1,3 +1,4 @@
-main.py
 pdf.py
 /img
+/dist/
+__pycache__/

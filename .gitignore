@@ -2,3 +2,5 @@ pdf.py
 /img
 /dist/
 __pycache__/
+pdf2img_cli.egg-info
+/images/

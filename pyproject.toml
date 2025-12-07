@@ -14,5 +14,8 @@ dependencies = [
 [project.scripts]
 pdf2img-cli = "pdf2img_cli.__main__:cli"
 
+[tool.setuptools.packages.find]
+exclude = ["images"]
+
 [tool.uv]
 package = true

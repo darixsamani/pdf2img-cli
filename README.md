@@ -8,14 +8,20 @@ A simple and powerful CLI tool to convert PDF files into images!
 
 Install using pip:
 
-```
-pip install pdf2img-cli
+```bash
+pipx install pdf2img-cli
 
+```
+
+or with UV
+
+```bash
+uv tool install pdf2img-cli
 ```
 
 ## 🛠️ Usage
 
-you can specify password using `--password` arguemnt
+You can specify the password using the `--password` argument
 
 Run with uv:
 
@@ -27,6 +33,6 @@ uv run pdf2img-cli --pdf ./example/pdf.pdf --ouput-dir images
 Or call the CLI directly:
 
 ```
-pdf2img_cli --pdf ./example/pdf.pdf --ouput-dir images
+pdf2images --pdf ./example/pdf.pdf --ouput-dir images
 ```
  

@@ -1,16 +1,22 @@
-import argparse
+import typer
+from typing import Optional
 from . import main
 
-def cli():
-    parser = argparse.ArgumentParser(description='This is CLI to transform pdf into images')
+app = typer.Typer(help="This is CLI to transform pdf into images")
 
-    parser.add_argument('--pdf', type=str, help="Path to pdf", required=True)
-    parser.add_argument('--ouput-dir', type=str, help="Output directory", default="images")
-    parser.add_argument('--password', type=str, help="PDF password", default=None)
+@app.command()
+def cli(
+    pdf: str = typer.Option(..., "--pdf", help="Path to pdf"),
+    output_dir: str = typer.Option("images", "--output-dir", help="Output directory"),
+    password: Optional[str] = typer.Option(None, "--password", help="PDF password"),
+):
+    """
+    Transform PDF into images
+    """
+    main(pdf, output_dir, password)
 
-    args = parser.parse_args()
-
-    main(args.pdf, args.ouput_dir, args.password)
+def main_cli():
+    app()
 
 if __name__ == "__main__":
-    cli()
+    main_cli()

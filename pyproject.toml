@@ -1,6 +1,6 @@
 [project]
 name = "pdf2img-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "command-line interface (CLI) to tranform pdf to images"
 readme = "README.md"
 authors = [
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pdf2img-cli = "pdf2img_cli.__main__:main_cli"
+pdf2images = "pdf2img_cli.__main__:main_cli"
 
 [tool.setuptools.packages.find]
 exclude = ["images"]
